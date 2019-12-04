@@ -5,8 +5,7 @@ jobs:
   runs-on: ubuntu-latest
   steps:
     - name: Hello world action step
-    id: hello
-    uses: mattmurp/github-action-test
+    - uses: mattmurp/github-action-test
     with:
     who-to-greet: 'Matt'
     - name: Get the output time
